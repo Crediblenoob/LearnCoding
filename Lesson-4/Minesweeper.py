@@ -59,7 +59,7 @@ def paintfield(stdscr, field, size):
                 stdscr.addstr(field[r][c][0], field[r][c][1], chr(10041))
             else:
                 #stdscr.addstr(field[r][c][0], field[r][c][1], chr(9608))
-                stdscr.addstr(field[r][c][0], field[r][c][1], str(field[r][c][2]))
+                stdscr.addstr(field[r][c][0], field[r][c][1], str(field[r][c][2])
 
 def colordict():
 
